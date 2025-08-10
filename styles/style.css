@@ -38,7 +38,7 @@
 .header__logo {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
   align-items: center;
 }
 
@@ -65,7 +65,7 @@
   font-size: var(--font-size);
   font-variation-settings: 'wgth' var(--wgth-bold);
   line-height: normal;
-  padding: 5px 12px;
+  padding: 4px 10px;
 }
 
 .main__card-img-container {
@@ -106,15 +106,18 @@
   justify-content: end;
   align-items: center;
   margin: 0 25px 25px;
-  gap: 12px;
+  gap: 7px;
 }
 
 .card__icon-button {
-  inline-size: 27px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  inline-size: 39px;
   block-size: auto;
   background-color: transparent;
   border: none;
-  padding: 2px 0 0;
+  padding: 0;
   outline: solid 2px transparent;
   outline-offset: 1.5px;
   transition: outline 0.3s ease;
@@ -244,31 +247,31 @@
   outline: solid 2px var(--accent-color);
 }
 
-.filter-first {
+.filter-sepia {
   filter: sepia(80%);
 }
 
-.filter-first-end {
+.filter-ivert{
   filter: invert(60%);
 }
 
-.filter-second {
+.filter-hue-rotate {
   filter: hue-rotate(90deg);
 }
 
-.filter-second-end {
+.filter-saturate{
   filter: saturate(200%);
 }
 
-.filter-third {
+.filter-hue-rotate-saturate {
   filter: hue-rotate(-90deg) saturate(150%);
 }
 
-.filter-third-end {
+.filter-grayscale-blur {
   filter: grayscale(100%) blur(0.2rem);
 }
 
-.filter-now {
+.filter-brightness {
   filter: brightness(120%);
 }
 
