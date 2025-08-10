@@ -115,6 +115,9 @@
   background-color: transparent;
   border: none;
   padding: 2px 0 0;
+  outline: solid 2px transparent;
+  outline-offset: 1.5px;
+  transition: outline 0.3s ease;
 }
 
 .card__like-button {
@@ -188,7 +191,7 @@
   background-color: var(--basic-color);
 }
 
-.card__like-button, .button {
+.card__like-button, .button, .card__icon-button {
   cursor: pointer;
 }
 
@@ -226,17 +229,11 @@
 }
 
 .button:hover .floppy-svg {
-  stroke: currentColor; 
+  stroke: currentColor;
 }
 
 .button:hover::after {
   transform: translateX(0);
-}
-
-.card__icon-button {
-  outline: solid 2px transparent;
-  outline-offset: 1.5px;
-  transition: outline 0.3s ease;
 }
 
 .card__icon-button:focus {
