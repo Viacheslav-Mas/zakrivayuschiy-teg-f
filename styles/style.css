@@ -30,7 +30,7 @@
 }
 
 .header {
-  font-family: var(--font-family-accent), sans-serif;
+  font-family: var(--font-family-accent), fantasy;
   padding: var(--header-padding);
   margin: 100px auto;
 }
@@ -88,7 +88,7 @@
   position:absolute;
   top: 25px;
   right: 25px;
-  font-family: var(--font-family-accent), sans-serif;
+  font-family: var(--font-family-accent), fantasy;
   font-size: var(--font-size-small);
   opacity: 50%;
   mix-blend-mode: hard-light;
@@ -135,7 +135,7 @@
 
 
 .button__text {
-  font-family: var(--font-family-accent), sans-serif;
+  font-family: var(--font-family-accent), fantasy;
   font-size: var(--font-size-small);
   line-height: 90%;
   color: var(--basic-color);
@@ -245,7 +245,7 @@
   filter: sepia(80%);
 }
 
-.filter-ivert{
+.filter-ivert {
   filter: invert(60%);
 }
 
@@ -253,7 +253,7 @@
   filter: hue-rotate(90deg);
 }
 
-.filter-saturate{
+.filter-saturate {
   filter: saturate(200%);
 }
 
